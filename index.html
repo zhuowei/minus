@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pessimist- Login</title>
+<link rel="stylesheet" type="text/css" href="minus.css" />
+<script type="text/javascript">
+function loadHandler(e){
+	var hates = Math.floor((new Date().getTime() - 1310961131000) / 1000 / 15) + 9000;
+	document.getElementById("hate-time").innerHTML = hates;
+}
+function pessimistConnect(){
+	var answer = confirm("Allow the application 'Pessimist-' to access your Pessimist- account?");
+	if(!answer){
+		alert("Allow this website to access the account, you incompetent idiot!\nPlease move away from the mic, breathe in, and try again.");
+		return;
+	}
+	alert("You must be logged into your Pessimist- account first to login via Pessimist- Connect.\n" + 
+		"Click OK to be redirected to the Pessimist- login page.");
+	window.location.reload();
+}
+window.addEventListener("load", loadHandler, false);
+</script>
+</head>
+<body>
+<div id="header"><a href="index.html">Home</a> <a href="index.html">Sign in</a></div>
+<h1>Pessimist-</h1>
+<div id="attract-text">Pessimist- helps you utterly fail at socializing.</div>
+<div id="more-info">For more useless information, take the <a href="tour.html">Pessimist- tour.</a></div>
+<div id="signin-form">
+Sign in to Pessimist-<br/>
+
+Username:<input name="username"><br/>
+Password:<input name="password" type="password"><br/>
+<button onclick="window.location='http://nyan.cat'" style="font-size:200%">I'm an idiot and forgot my stupid password again. </button><br/>
+<button onclick="window.location='http://www.youtube.com/watch?v=oHg5SJYRHA0'">Sign in</button>
+<button onclick="pessimistConnect()">Log in with Pessimist- Connect</button><br/>
+<a href="http://www.youtube.com/watch?v=2WNrx2jq184#at=27">Sign up for yet another useless account that may get hacked. Oh well.</a>
+</div>
+<br/>
+<br/>
+<div class="hate-div">
+<span id="hate-time" class="number-of-hates">9001</span> people all <button onclick="window.location='http://www.youtube.com/watch?v=Y6ljFaKRTrI#at=60'">Hate</button> this webpage. 
+</div>
+</body>
+</html>

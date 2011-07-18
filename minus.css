@@ -1,0 +1,25 @@
+body {
+	background-color: white;
+	font-family: sans-serif;
+}
+#signin-form {
+	background-color: #eeffff;
+	display: block;
+	float:right;
+}
+.hate-div {
+	background-color: #eeffff;
+	display: block;
+	float:left;
+}
+#header {
+	background-color: black;
+	color: white;
+	vertical-align: top;
+}
+#header a {
+	color: white;
+}
+.number-of-hates {
+	font-size: 150%;
+}
